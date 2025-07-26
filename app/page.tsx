@@ -125,7 +125,7 @@ export default function Home() {
                     </div>
                     <div className="space-y-2">
                       <div className="flex justify-between">
-                        <span className="text-gray-300 text-xs">名字:</span>
+                        <span className="text-gray-300 text-xs">国家:</span>
                         <span className="text-white text-xs font-medium">{data.geo.countryName}</span>
                       </div>
                       <div className="flex justify-between">
