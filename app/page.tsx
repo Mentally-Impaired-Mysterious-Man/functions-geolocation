@@ -59,11 +59,11 @@ export default function Home() {
           <div className="text-center mb-4">
             <h1 className="text-2xl font-bold text-white mb-2">
               <a
-                href="https://edgeone.ai/products/pages"
+                href="#"
                 target="_blank"
                 className="text-blue-400 hover:text-blue-300 transition-colors duration-200"
               >
-                EdgeOne Pages - Geolocation
+                EdgeOne Pages Functions: IP 地址信息
               </a>
             </h1>
           </div>
@@ -95,7 +95,7 @@ export default function Home() {
                     <div className="w-6 h-6 bg-blue-600 rounded-md flex items-center justify-center text-white font-bold text-xs mr-3">
                       C
                     </div>
-                    <h2 className="text-lg font-bold text-white">Client Information</h2>
+                    <h2 className="text-lg font-bold text-white">访问者信息</h2>
                   </div>
                   <div className="flex items-center space-x-6">
                     <div className="flex items-center space-x-2">
@@ -121,23 +121,23 @@ export default function Home() {
                       <div className="w-6 h-6 bg-green-600 rounded-md flex items-center justify-center text-white font-bold text-xs mr-2">
                         🌍
                       </div>
-                      <h3 className="text-md font-bold text-white">Country</h3>
+                      <h3 className="text-md font-bold text-white">国家</h3>
                     </div>
                     <div className="space-y-2">
                       <div className="flex justify-between">
-                        <span className="text-gray-300 text-xs">Name:</span>
+                        <span className="text-gray-300 text-xs">名字:</span>
                         <span className="text-white text-xs font-medium">{data.geo.countryName}</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-gray-300 text-xs">Code (Alpha2):</span>
+                        <span className="text-gray-300 text-xs">国家代码 (Alpha2):</span>
                         <span className="text-white text-xs font-medium">{data.geo.countryCodeAlpha2}</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-gray-300 text-xs">Code (Alpha3):</span>
+                        <span className="text-gray-300 text-xs">国家代码 (Alpha3):</span>
                         <span className="text-white text-xs font-medium">{data.geo.countryCodeAlpha3}</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-gray-300 text-xs">Numeric:</span>
+                        <span className="text-gray-300 text-xs">数值:</span>
                         <span className="text-white text-xs font-medium">{data.geo.countryCodeNumeric}</span>
                       </div>
                     </div>
@@ -149,19 +149,19 @@ export default function Home() {
                       <div className="w-6 h-6 bg-purple-600 rounded-md flex items-center justify-center text-white font-bold text-xs mr-2">
                         📍
                       </div>
-                      <h3 className="text-md font-bold text-white">Region</h3>
+                      <h3 className="text-md font-bold text-white">地区</h3>
                     </div>
                     <div className="space-y-2">
                       <div className="flex justify-between">
-                        <span className="text-gray-300 text-xs">Region:</span>
+                        <span className="text-gray-300 text-xs">地区:</span>
                         <span className="text-white text-xs font-medium">{data.geo.regionName}</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-gray-300 text-xs">Code:</span>
+                        <span className="text-gray-300 text-xs">地区代码:</span>
                         <span className="text-white text-xs font-medium">{data.geo.regionCode}</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-gray-300 text-xs">City:</span>
+                        <span className="text-gray-300 text-xs">城市:</span>
                         <span className="text-white text-xs font-medium">{data.geo.cityName}</span>
                       </div>
                     </div>
@@ -173,15 +173,15 @@ export default function Home() {
                       <div className="w-6 h-6 bg-orange-600 rounded-md flex items-center justify-center text-white font-bold text-xs mr-2">
                         🌐
                       </div>
-                      <h3 className="text-md font-bold text-white">Network & Location</h3>
+                      <h3 className="text-md font-bold text-white">网络 & 位置</h3>
                     </div>
                     <div className="space-y-2">
                       <div className="flex justify-between">
-                        <span className="text-gray-300 text-xs">Latitude:</span>
+                        <span className="text-gray-300 text-xs">纬度:</span>
                         <span className="text-white text-xs font-medium">{data.geo.latitude}</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-gray-300 text-xs">Longitude:</span>
+                        <span className="text-gray-300 text-xs">经度:</span>
                         <span className="text-white text-xs font-medium">{data.geo.longitude}</span>
                       </div>
                       <div className="flex justify-between">
@@ -189,7 +189,7 @@ export default function Home() {
                         <span className="text-white text-xs font-medium">{data.geo.asn}</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-gray-300 text-xs">CISP:</span>
+                        <span className="text-gray-300 text-xs">运营商:</span>
                         <span className="text-white text-xs font-medium">{data.geo.cisp}</span>
                       </div>
                     </div>
@@ -202,7 +202,7 @@ export default function Home() {
           {/* Footer */}
           <div className="text-center mt-4 text-gray-400">
             <p className="text-xs">
-              Powered by EdgeOne • Real-time geolocation detection
+              由EdgeOne 提供支持 • 实时地理定位检测
             </p>
             <p className="text-xs mt-1">
               <a
