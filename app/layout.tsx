@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "EdgeOne Pages Functions: Geolocation",
-  description: "An example of using EdgeOne Pages Functions with Geolocation.",
+  title: "EdgeOne Pages Functions: IP 地址信息",
+  description: "使用 EdgeOne Pages 函数进行地理定位的示例。",
 };
 
 export default function RootLayout({
